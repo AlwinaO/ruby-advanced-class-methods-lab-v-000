@@ -54,7 +54,7 @@ class Song
     file = filename.split(" - ")
     artist = file[0]
     title = file[1].gsub(".mp3", "")
-
+    #binding.pry
     #artist = file.each do |f|
       #data = f.split(", ")
       #artist.pop
