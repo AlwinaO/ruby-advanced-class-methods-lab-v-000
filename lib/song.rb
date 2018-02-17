@@ -40,6 +40,7 @@ class Song
     else
       song = self.create_by_name(name)
       song
+    end
   end
 
 end
