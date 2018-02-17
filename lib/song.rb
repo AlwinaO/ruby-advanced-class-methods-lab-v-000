@@ -49,7 +49,7 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    file = filename.split(" - ").pop
+    file = filename.split(" - ")(".mp3").pop
     artist = file.each do |f|
       data = f.split(", ")
       artist_name = data[0]
