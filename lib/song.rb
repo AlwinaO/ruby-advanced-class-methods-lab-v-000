@@ -49,9 +49,9 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    file = filename.split(" - ", ".mp3")
+    file = filename.split(" - ").pop
     artist = file.collect do |f|
-      data = f.split(", ").pop
+      data = f.split(", ")
       artist_name = data[0]
       song = data[1]
 
