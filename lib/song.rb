@@ -53,7 +53,7 @@ class Song
     artist = file.collect do |f|
       data = f.split (", ")
       artist_name = data[0]
-      song = [1]
+      song = data[1]
 
       song = self.new
       song.artist_name = name
