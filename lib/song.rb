@@ -62,7 +62,7 @@ class Song
       #song = data[1]
 
       song = create_by_name(title)
-      song.artist_name = artist 
+      song.artist_name = artist
       song
 
 
