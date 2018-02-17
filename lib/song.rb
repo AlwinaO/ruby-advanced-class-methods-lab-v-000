@@ -12,13 +12,12 @@ class Song
 
   def self.create
     song = self.new
-    @@all << song
-    song
+    song = song.name
   end
 
   def self.new_by_name
     song = self.new
-    s@@all << song
+    @@all << song
   end
 
 end
